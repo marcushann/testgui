@@ -16,6 +16,6 @@ public partial class MainWindow: Gtk.Window
 
 	protected void OnButtonClearClicked (object sender, EventArgs e)
 	{
-		throw new NotImplementedException ();
+		textview1.Buffer.Text = "";
 	}
 }
