@@ -18,4 +18,14 @@ public partial class MainWindow: Gtk.Window
 	{
 		textview1.Buffer.Text = "";
 	}
+
+	protected void OnButtonUpperClicked (object sender, EventArgs e)
+	{
+		textview1.Buffer.Text = textview1.Buffer.Text.ToUpper ();
+	}
+
+	protected void OnButtonLowerClicked (object sender, EventArgs e)
+	{
+		textview1.Buffer.Text = textview1.Buffer.Text.ToLower ();
+	}
 }

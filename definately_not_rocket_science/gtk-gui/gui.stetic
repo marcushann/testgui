@@ -45,6 +45,7 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">Upper Case</property>
                 <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnButtonUpperClicked" />
               </widget>
               <packing>
                 <property name="Position">1</property>
@@ -60,6 +61,7 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">Lower Case</property>
                 <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnButtonLowerClicked" />
               </widget>
               <packing>
                 <property name="Position">2</property>
