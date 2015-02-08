@@ -18,6 +18,7 @@ public partial class MainWindow: Gtk.Window
 	protected void OnButtonClearClicked (object sender, EventArgs e)
 	{
 		textview1.Buffer.Text = "";
+		//comment
 	}
 
 	protected void OnButtonUpperClicked (object sender, EventArgs e)
